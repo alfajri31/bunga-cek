@@ -2,7 +2,9 @@ package com.example.demo.service;
 
 import com.example.demo.dto.BungaDto;
 import com.example.demo.dto.BungaResp;
+import org.springframework.stereotype.Service;
 
+@Service
 public class BungaService implements BungaInterface {
 
 
